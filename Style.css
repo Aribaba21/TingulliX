@@ -1,0 +1,128 @@
+ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+ul a:hover{
+    background-color: rgba(245, 245, 245, 0.445);
+}
+nav{
+    box-shadow: 5px 5px 5px lightgray;
+    overflow: hidden;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between ;
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+
+}
+li a{
+    padding: 30px;
+    margin-top: 20px;
+}
+.logo img{
+    padding-left: 30px;
+}
+body{
+    background-image: url(foto/360_F_232244890_8CJ7VJAU79lhGHg8D19Ch9JrfUCYOn7M.jpg);
+    background-size: cover;
+    
+}
+.tekst{
+    position: absolute;
+    bottom: 250px;
+    right: 500px;
+    color: white;
+}
+button{
+    padding: 10px;
+    margin-left: 70px;
+    border-radius: 10px;
+    background-color: rgb(88, 94, 114);
+    color: white;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    position: relative;
+}
+
+.kart {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.kart img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.kart h3 {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.kart a {
+    display: inline-block;
+    margin: 10px 0 20px;
+    text-decoration: none;
+    color: #1b96bb;
+    font-weight: bold;
+}
+
+.kart a:hover {
+    text-decoration: underline;
+}
+#Elektrike{
+    color: white;
+    position: absolute;
+    left: 600px;
+}
+#luksoze{
+    color: white;
+    position: absolute;
+    left: 600px;
+    bottom: 230px;
+}
+#sporitve{
+    color: white;
+    position: absolute;
+    left: 600px;
+    bottom: -65px;
+}
+#Suv{
+    color: white;
+    position: absolute;
+    left: 609px;
+    bottom: -400px;
+}
+li a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+li a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+li a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
